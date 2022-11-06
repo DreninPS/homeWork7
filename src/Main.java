@@ -47,9 +47,14 @@ public class Main {
 //        coll.delete(0);
         coll.add("7");
         coll.add("7");
+        coll.add("8");
+        coll.add("9");
 //        coll.add("7");
 //        coll.add("7");
 //        coll.add("7");
-//        System.out.println(coll.get(13));
+        System.out.println(coll.get(0));
+        System.out.println(coll.get(1));
+        System.out.println(coll.get(2));
+        System.out.println(coll.get(3));
     }
 }

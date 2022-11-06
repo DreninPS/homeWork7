@@ -30,7 +30,6 @@ public class MyCollectionImpl implements Collection{
         }
         massConstruct[index] = value;
         flag++;
-        System.out.println(Arrays.toString(massConstruct));
     }
 
     private void decrSizeMassFilling (){
@@ -56,7 +55,6 @@ public class MyCollectionImpl implements Collection{
             isEmpty = true;
             flag = 0;
         }
-        System.out.println(Arrays.toString(massConstruct));
     }
     private void deleteElement(String value){
         for (int i = 0; i <flag ; i++) {
@@ -83,18 +81,15 @@ public class MyCollectionImpl implements Collection{
         if(flag!=0) {
             massConstruct[flag+1] = value;
             flag++;
-            System.out.println(Arrays.toString(massConstruct));
             return true;
         }
         if(flag==0&&isEmpty==true) {
             massConstruct[0] = value;
             isEmpty = false;
-            System.out.println(Arrays.toString(massConstruct));
             return true;
         }
             massConstruct[flag+1] = value;
             flag++;
-            System.out.println(Arrays.toString(massConstruct));
         return true;
     }
     @Override
