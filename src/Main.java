@@ -1,0 +1,55 @@
+public class Main {
+    public static void main(String[] args) throws Exception {
+        Collection coll1 = new MyCollectionImpl();
+        Collection coll = new MyCollectionImpl(new String[]{"qweqwe","123123123","fffgdfgd"} );
+        coll.add("33333");
+        coll1.add("33333");
+        coll1.add("33333");
+        coll1.add("33333");
+        coll1.add("33333");
+        coll1.add("33333");
+        coll1.add("33333");
+        coll.add(4,"444444");
+        coll.add(2,"222222");
+        coll.add(2,"22222");
+        coll.add(2,"2222");
+        coll.add(2,"222");
+        coll.add(2,"22");
+        coll.add("5");
+        coll.add("55");
+        coll.add("555");
+        coll.add("5555");
+        coll.add("66");
+        coll.add("66");
+        coll.add("66");
+        coll.add("66");
+        coll.add("777");
+        coll.delete(0);
+        coll.delete(0);
+        coll.delete(0);
+        coll.delete(0);
+        coll.delete(0);
+        coll.delete(0);
+        coll.delete(0);
+        coll.delete(0);
+        coll.delete(0);
+        coll.delete(0);
+        coll.delete(0);
+        coll.delete(0);
+        coll.delete(0);
+        coll.delete(0);
+        coll.delete(0);
+        coll.delete(0);
+        coll.delete(0);
+        coll.delete(0);
+        coll.delete(0);
+//        coll.delete(0);
+//        coll.delete(0);
+        coll.add("7");
+        coll.add("7");
+//        coll.add("7");
+//        coll.add("7");
+//        coll.add("7");
+//        System.out.println(coll.get(13));
+    }
+}
